@@ -1,11 +1,18 @@
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Cabin', Arial, sans-serif;
 }
 
 p {
     line-height: 1.75;
 }
+
+
+
+
+
+
+/* Background Image - START */
 
 .parallax {
     /* The image used */
@@ -29,7 +36,31 @@ p {
     min-height: 300px;
 }
 
+/* Background Image - END */
 
+/* SECTIONS: All, Jumbotron - START */
+
+section,
+.jumbotron {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0;
+    background-image: url("/assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
+}
+
+/* SECTION: All, Jumbotron - END */
+
+/* SECTION: Features - START */
+
+#features {
+    background-image: url("/assets/images/yellow-paper.jpg");
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+}
+
+/* SECTION: Features - END */
+
+/* SECTION: Testimonials - START */
 
 #user-testimonials {
     background-color: yellow;
@@ -56,8 +87,9 @@ p {
     margin-top: 0;
 }
 
+/* SECTION: Testimonials - END */
 
-
+/* MENU: Main Nav - START */
 
 .main-nav {
     list-style: none;
@@ -68,20 +100,99 @@ p {
     background-color: transparent;
 }
 
-li {
+.main-nav li {
     margin: 0 auto;
     list-style: none;
     display: inline-block;
     text-align: center;
 }
 
-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-image: url("/assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
+/* MENU: Main Nav - END */
+
+/* MENU: Social - START */
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    background: #00ABE3;
+}
+
+.social .fa-github:hover {
+    background: #343434;
+}
+
+.social .fa-instagram:hover {
+    background: #375989;
+}
+
+.social .fa-youtube:hover {
+    background: #FF1F25;
+}
+
+.social .fa-rss:hover {
+    background: #e88845;
 }
 
 
-.jumbotron {
+.social .fa-youtube-play:hover {
+    background: #DF192A;
+}
+
+/* MENU: Social Menu - END */
+
+/* Footer - START */
+
+.footer-main {
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-image: url('/assets/images/Plain-Brown-Paper-Texture-520x389.jpg');
 }
+
+/* Footer - END */

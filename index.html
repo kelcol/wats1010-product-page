@@ -5,10 +5,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="wilih=device-wilih, initial-scale=1">
+
     <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
     <title>API Superstore</title>
+    <meta name="description" content="The API Superstore is a resource that compiles information about APIs available on the web in one convenient location." />
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="API Superstore">
+    <meta property="og:url" content="https://kelcol.github.io/wats3010-product-page">
+    <meta property="og:image" content="https://kelcol.github.io/wats3010-product-page/assets/logos/sqlogo_white_bk.png">
+    <meta property="og:site_name" content="API Superstore Product Page">
+    <meta property="og:description" content="The API Superstore is a resource that compiles information about APIs available on the web in one convenient location." />
+
+
     <!-- Bootstrap CSS Framework -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/styles.css">
+    <!-- End Bootstrap CSS Framework -->
+
     <!-- You can remove the ``link`` tags below if you don't want to use
              Bootstrap with your site. If you choose to use Bootstrap, be sure
              to reference the resources and the Bootstrap official
@@ -23,45 +38,50 @@
 
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter:400,100,300,700' rel='stylesheet' type='text/css'>
 
-
-
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/styles.css">
-    <!-- End Bootstrap CSS Framework -->
 
     <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="favicon" href="favicon.ico">
+    <link rel=icon href=favicon.png sizes="16x16" type="image/png">
 
 </head>
 
 <body>
-
-
-    <div class="container-fluid">
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <h1>API Superstore</h1>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="main-nav">
-                        <li><a class="button button-nav__main" href="index.html#about">About</a></li>
-                        <li><a class="button button-nav__main" href="index.html#features">Features</a></li>
-                        <li><a class="button button-nav__main" href="index.html#contact">Contact</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">API Superstore</a>
             </div>
-        </nav>
 
-    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
     <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
@@ -77,12 +97,22 @@
 
     <div class="parallax parallax-short"></div>
 
+    <!-- TODO: Create an area to show features. -->
+    <!-- Features Section -->
+
     <section id="features">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Features</h2>
-                    <h3 class="section-subheading text-muted">**to be added </h3>
+                    <h3 class="section-subheading text-muted">We've got a veritable grocery list of features! </h3>
+                    <ul>
+                        <li>Links to the best APIs from all over the web</li>
+                        <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+                        <li>Convenient catalog</li>
+                        <li>Toothpaste and tomato sauce (Wait - how'd that get in there?</li>
+                        <li>Elegant shopping experience</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -91,7 +121,10 @@
     <div class="parallax parallax-short"></div>
 
 
-    <section id="user-testimonials">
+    <!-- TODO: Create an area to put customer testimonials. -->
+    <!-- Testimonials Section -->
+
+    <section id="testimonials">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -129,27 +162,25 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="row">-->
-            <!--    <div class="col-lg-8 mx-auto text-center">-->
-            <!--        <p class="large text-muted">Hm</p>-->
-            <!--    </div>-->
-            <!--</div>-->
         </div>
     </section>
 
     <div class="parallax parallax-short"></div>
 
+    <!-- TODO: Create an area to put the long product description. -->
+    <!-- About Section -->
+
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">API Superstore</h2>
-                    <h3 class="section-subheading text-muted">What we're all about </h3>
+                    <h2 class="section-heading text-uppercase">About Us</h2>
+                    <h3 class="section-subheading text-muted">We're your friendly neighborhood API Superstore! </h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-8">
-                    <img src="/assets/images/groceryaisle-2__blurred.png" />
+                    <img src="assets/images/Wroclaw_Daily_Market.jpg" alt="Wroclaw daily market" />
                 </div>
                 <div class="col-sm-4">
                     <p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e­commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out
@@ -163,30 +194,28 @@
 
     <div class="parallax parallax-short"></div>
 
+    <!-- TODO: Create a call to action link to get users to sign up for the
+             service. -->
+    <!-- Call to Action Section -->
+
     <div class="jumbotron mx-auto text-center" id="call-to-action">
         <h3>Browse the aisles</h3>
-        <p>Explore on your own or take a guided tour through API Superstore</p>
-        <p><a href="#" class="btn btn-primary btn-lg">Hit the tiles</a></p>
+        <h3 class="section-subheading text-muted">Explore on your own or take a guided tour through the API Superstore</h3>
+        <p><a href="#" class="btn btn-primary btn-lg">Sign Up</a></p>
     </div>
-
-
 
     <div class="parallax parallax-short"></div>
 
+    <!-- Contact Section -->
+
     <section id="contact">
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1>Contact Us</h1>
-
-                    <form id="contact-form" method="post" action="contact.php" role="form">
-
+                    <form id="contact-form" method="post" action="contact.php">
                         <div class="messages"></div>
-
                         <div class="controls">
-
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -221,55 +250,53 @@
                                 </div>
                             </div>
                         </div>
-
                     </form>
                 </div>
-
             </div>
-
         </div>
-
     </section>
-
-
-    <!-- TODO: Create an area to put the long product description. -->
-
-    <!-- TODO: Create an area to put customer testimonials. -->
-
-    <!-- TODO: Create an area to show features. -->
-
-    <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
 
     <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
-    <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+
+
 
     <div class="parallax parallax-short"></div>
 
 
-    <footer>
+    <!-- TODO: Create an area to show company contact info (phone,
+             location, etc.) -->
+    <!-- Footer/Contact Section -->
+
+    <footer class="footer-main">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <dl>
-                        <dd>Phone: 123456789</dd>
-                        <dd>Email: contactus@apisuperstore.com</dd>
-                        <dd>Location: Seattle, WA</dd>
-                    </dl>
+                    <ul>
+                        <li>Phone: 123456789</li>
+                        <li>Email: contactus@apisuperstore.com</li>
+                        <li>Location: Seattle, WA</li>
+                    </ul>
                 </div>
                 <div class="col-md-8">
-                    <h3>Connect with us!</h3>
-                    <p>Insert social icons here</p>
-                </div>
+                    <h3>Let's Connect</h3>
 
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-youtube-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
     </footer>
-
 
 </body>
 
