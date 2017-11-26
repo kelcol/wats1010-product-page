@@ -42,7 +42,7 @@ section,
     padding-top: 70px;
     padding-bottom: 70px;
     margin: 0;
-    background-image: url("https://kelcol.github.io/wats3010-product-page//assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
+    background-image: url("https://kelcol.github.io/wats3010-product-page/assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
 }
 
 /* SECTION: All, Jumbotron - END */
@@ -50,7 +50,7 @@ section,
 /* SECTION: Features - START */
 
 #features {
-    background-image: url("https://kelcol.github.io/wats3010-product-page/yellow-paper.jpg");
+    background-image: url("https://kelcol.github.io/assets/images/wats3010-product-page/yellow-paper.jpg");
     font-family: 'Architects Daughter', cursive;
     font-size: 1.5rem;
 }
@@ -58,10 +58,6 @@ section,
 /* SECTION: Features - END */
 
 /* SECTION: Testimonials - START */
-
-#user-testimonials {
-    background-color: yellow;
-}
 
 .our-user {
     margin-bottom: 50px;
