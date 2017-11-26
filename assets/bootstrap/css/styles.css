@@ -13,7 +13,7 @@ p {
 
 .parallax {
     /* The image used */
-    background-image: url("assets/images/groceryaisle-2__blurred.png");
+    background-image: url("https://kelcol.github.io/wats3010-product-page//assets/images/groceryaisle-2__blurred.png");
 
     /* Set a specific height */
     min-height: 200px;
@@ -42,7 +42,7 @@ section,
     padding-top: 70px;
     padding-bottom: 70px;
     margin: 0;
-    background-image: url("assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
+    background-image: url("https://kelcol.github.io/wats3010-product-page//assets/images/Plain-Brown-Paper-Texture-520x389.jpg");
 }
 
 /* SECTION: All, Jumbotron - END */
@@ -50,7 +50,7 @@ section,
 /* SECTION: Features - START */
 
 #features {
-    background-image: url("assets/images/yellow-paper.jpg");
+    background-image: url("https://kelcol.github.io/wats3010-product-page/yellow-paper.jpg");
     font-family: 'Architects Daughter', cursive;
     font-size: 1.5rem;
 }
@@ -189,7 +189,7 @@ section,
 .footer-main {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: url('Plain-Brown-Paper-Texture-520x389.jpg');
+    background-image: url('https://kelcol.github.io/wats3010-product-page//assets/images/Plain-Brown-Paper-Texture-520x389.jpg');
 }
 
 /* Footer - END */
