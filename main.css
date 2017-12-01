@@ -1,8 +1,347 @@
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+
+
 /* Styles for Product Page Customization */
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    overflow-x: hidden;
+    font-family: 'Cabin', Arial, sans-serif;
 }
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    opacity: 0.65;
+}
+
+.bgimg-1 {
+    background-image: url("assets/images/brown-paper.jpg");
+    min-height: 40%;
+}
+
+.bgimg-2 {
+    background-image: url("assets/images/yellow-paper.jpg");
+    min-height: 40%;
+}
+
+.bgimg-3 {
+    background-image: url("assets/images/beer-and-tp.jpg");
+    min-height: 40%;
+}
+
+.bgimg-4 {
+    background-image: url("assets/images/cheese.jpg");
+    min-height: 40%;
+}
+
+
+.bgimg-5 {
+    background-image: url("assets/images/wall-o-chili.jpg");
+    min-height: 40%;
+}
+
+.bgimg-6 {
+    background-image: url("assets/images/little-italy.jpg");
+    min-height: 40%;
+}
+
+.centered {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6 {
+        background-attachment: scroll;
+    }
+}
+
+/* MEDIA */
+
+
+
+
+
+/* SECTIONS: All, Jumbotron - START */
+
+section,
+.jumbotron {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+/* SECTION: All, Jumbotron - END */
+
+
+
+
+/* SECTION: Features - START */
+
+#features {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+}
+
+
+/* Notebook Paper - START */
+#notebook-paper {
+  width:960px;
+  height:400px;
+  background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
+  margin:50px auto;
+  background-size: 100% 30px;
+  position:relative;
+  padding-top:50px;
+  padding-left:80px;
+  padding-right:20px;
+  overflow:hidden;
+  border-radius:5px;
+  -webkit-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -moz-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -ms-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -o-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  &:before {
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:140px;
+    height:100%;
+    width:1px;
+    background:#db4034;
+  }
+
+  #content {
+    margin-top:67px;
+    font-size:20px;
+    line-height:30px;
+    p {
+      margin:0 0 30px 0;
+    }
+  }
+}
+/* Notebook Paper - END */
+
+
+
+/* SECTION: Features - END */
+
+
+
+
+/* SECTION: Testimonials - START */
+
+.our-user {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.our-user img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+}
+
+.our-user h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.our-user p {
+    margin-top: 0;
+}
+
+/* SECTION: Testimonials - END */
+
+
+
+
+
+/* about section */
+
+.about img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+}
+
+
+
+
+
+
+
+/*MENU: Main Nav - START */
+
+.main-nav {
+    list-style: none;
+    display: inline-block;
+    line-height: 2rem;
+    z-index: 100;
+    margin: auto;
+    background-color: transparent;
+}
+
+.main-nav li {
+    margin: 0 auto;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+/*MENU: Main Nav - END */
+
+/*MENU: Social - START */
+
+.social-menu-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    background: #00ABE3;
+}
+
+.social .fa-github:hover {
+    background: #343434;
+}
+
+.social .fa-instagram:hover {
+    background: #375989;
+}
+
+.social .fa-youtube:hover {
+    background: #FF1F25;
+}
+
+.social .fa-rss:hover {
+    background: #e88845;
+}
+
+
+.social .fa-youtube-play:hover {
+    background: #DF192A;
+}
+
+/*MENU: Social Menu - END */
+
+/*Footer - START */
+
+.footer-main {
+    padding-top: 70px;
+    /*padding-bottom: 70px;*/
+    max-height: 20%;
+}
+
+/* Footer - END */

@@ -1,13 +1,14 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
+    <style>
+    </style>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
     <title>API Superstore</title>
     <meta name="description" content="The API Superstore is a resource that compiles information about APIs available on the web in one convenient location." />
     <meta property="og:type" content="product">
@@ -21,25 +22,14 @@
     <!-- Bootstrap CSS Framework -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/styles.css">
+    <link rel="stylesheet" href="main.css">
+
     <!-- End Bootstrap CSS Framework -->
-
-    <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-
-
 
 
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -52,10 +42,12 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel=icon href=favicon.png sizes="16x16" type="image/png">
 
+
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!--- Navigation ---->
+    <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -65,7 +57,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                <a class="navbar-brand" href="#">API Superstore</a>
+                <a class="navbar-brand" href="#" <img src="assets/logos/api_superstore_sqlogo_by.png" class="img-responsive"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,48 +75,77 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
 
-    <div class="parallax parallax-tall"></div>
+    <!--- LOGO SECTION --->
+    <section class="bgimg-6">
+        <div class="container">
+            <div class="col-xs-8 col-xs-offset-2 
+            col-md-6 col-md-offset-3 
+            col-lg-6 col-lg-offset-3">
+                <img src="assets/logos/api_superstore_sqlogo_by.png" class="img-responsive">
+            </div>
+        </div>
+    </section>
 
-    <!-- TODO: Create an area to put the explainer video. -->
-
-    <!-- 16:9 aspect ratio -->
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo"></iframe>
-    </div>
-
-    <div class="parallax parallax-short"></div>
-
-    <!-- TODO: Create an area to show features. -->
-    <!-- Features Section -->
-
-    <section id="features">
+    <!----  FEATURES SECTION ---->
+    <section id="features" class="bgimg-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Features</h2>
-                    <h3 class="section-subheading text-muted">We've got a veritable grocery list of features! </h3>
-                    <ul>
-                        <li>Links to the best APIs from all over the web</li>
-                        <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
-                        <li>Convenient catalog</li>
-                        <li>Toothpaste and tomato sauce (Wait - how'd that get in there?</li>
-                        <li>Elegant shopping experience</li>
-                    </ul>
+                    <h2>What do you need from the API Superstore?</h2>
+                </div>
+            </div>
+            <div id="notebook-paper">
+                <div class="row" id="content">
+                    <div class="hipsum">
+                        <h2 class="section-heading text-uppercase">Shopping List</h2>
+                        <ul>
+                            <li>Links to the best APIs from all over the web</li>
+                            <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+                            <li>Convenient catalog</li>
+                            <li>Toothpaste and tomato sauce (Wait - how'd that get in there?)</li>
+                            <li>Elegant shopping experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="bgimg-4">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+        </div>
+    </div>
+
+
+
+    <!---- VIDEO SECTION ---->
+    <section id="video" class="bgimg-1">
+        <div class="container">
+            <div class="col-xs-8 col-xs-offset-2 
+            col-md-6 col-md-offset-3 
+            col-lg-6 col-lg-offset-3">
+                <div class="embed-responsive embed-responsive-16by9" align="center">
+                    <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0px" gesture="media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="parallax parallax-short"></div>
 
 
-    <!-- TODO: Create an area to put customer testimonials. -->
-    <!-- Testimonials Section -->
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Features</span>
+        </div>
+    </div>
 
-    <section id="testimonials">
+
+
+    <!-- TESTIMONIALS SECTION -->
+
+    <section id="testimonials" class="bgimg-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -140,7 +161,6 @@
                             <p>Since I started using the API Superstore, everyone thinks I'm shorter and better looking!</p>
                             <footer>Fount Rhodeside, Owner of the Roadkill Jerky Co.</footer>
                         </blockquote>
-
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -165,12 +185,18 @@
         </div>
     </section>
 
-    <div class="parallax parallax-short"></div>
 
-    <!-- TODO: Create an area to put the long product description. -->
+    <div class="bgimg-5">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">About</span>
+        </div>
+    </div>
+
+
+
     <!-- About Section -->
 
-    <section id="about">
+    <section id="about" class="bgimg-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -179,61 +205,60 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-8">
-                    <img src="assets/images/Wroclaw_Daily_Market.jpg" alt="Wroclaw daily market" />
+                <div class="col-sm-6">
+                    <img class="img-responsive about" src="assets/images/Wroclaw_Daily_Market.jpg" alt="Wroclaw daily market" />
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e­commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out
                         yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
                     <p>So you say you hate Superstores? Have no fear, the API Superstore is a Superstore in name only. We suffer none of the inconveniences of those in person superstores but offer all their conveniences. Want it easy and fast? Want it for
                         the whole family? Like free samples? Need your expired coupons honored? Look no further.</p>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <div class="parallax parallax-short"></div>
 
-    <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+
+    <div class="bgimg-6" style="background-color:transparent"></div>
+
     <!-- Call to Action Section -->
-
-<div class="jumbotron mx-auto text-center" id="call-to-action">
-    <h3>Browse the aisles</h3>
-    <h3 class="section-subheading text-muted">Explore on your own or take a guided tour through the API Superstore</h3>
-
-
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+    <section class="jumbotron mx-auto text-center bgimg-1" id="call-to-action">
+        <h3>Browse the aisles</h3>
+        <h3 class="section-subheading text-muted">Explore on your own or take a guided tour through the API Superstore</h3>
 
 
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Is that pizza?</h4>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Is that pizza?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>No, it's not delivery, it's the API Superstore</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Shut the front door</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <p>No, it's not delivery, it's the API Superstore</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Shut the front door</button>
-                </div>
+
             </div>
-
         </div>
-    </div>
-</div>
+    </section>
 
-    <div class="parallax parallax-short"></div>
+    <div class="bgimg-3" style="background-color:transparent"></div>
 
     <!-- Contact Section -->
-
-    <section id="contact">
+    <section id="contact" class="bgimg-1" data-parallax="scroll">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -281,17 +306,13 @@
         </div>
     </section>
 
-    <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-    <div class="parallax parallax-short"></div>
 
 
-    <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+    <div class="bgimg-4" style="background-color:transparent"></div>
+
     <!-- Footer/Contact Section -->
 
-    <footer class="footer-main">
+    <footer class="footer-main bgimg-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -319,13 +340,18 @@
             </div>
         </div>
     </footer>
-    
-     <!-- jQuery -->
+
+    <!-- jQuery -->
     <script src="assets/bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/parallax.js"></script>
 
 </body>
+
 
 </html>
