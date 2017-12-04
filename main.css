@@ -20,7 +20,7 @@ html {
     color: #00245D;
     overflow-x: hidden;
     font-family: 'PT Sans', sans-serif;
-    background-image: url('/assets/images/brown-paper.jpg');
+    background-image: url('assets/images/brown-paper.jpg');
     padding-top: 20px;
 }
 
@@ -38,7 +38,7 @@ h3 {
 }
 
 .navbar {
-    background-image: url('/assets/images/brown-paper.jpg')!important;
+    background-image: url('assets/images/brown-paper.jpg')!important;
     border: 0px;
 }
 
@@ -53,9 +53,9 @@ a[rel="email"]:after{
   padding-left: 5px;
 }
 
-a[rel="internal-about"] {
-  border-bottom: 1px dotted #1A8D59;
-}
+/*a[rel="internal-about"] {*/
+/*  border-bottom: 1px dotted #1A8D59;*/
+/*}*/
 
 
 p {  
