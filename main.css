@@ -8,9 +8,6 @@
 
 
 
-
-
-
 /* Styles for Product Page Customization */
 
 /* NOTE: Do not edit the Bootstrap CSS files. */
@@ -24,14 +21,42 @@ html {
     overflow-x: hidden;
     font-family: 'PT Sans', sans-serif;
     background-image: url('/assets/images/brown-paper.jpg');
+    padding-top: 20px;
 }
 
 
-h1, h2, h3 {
+h1 { 
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h2, 
+h3 {
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-
+    font-weight: bold;
 }
+
+.navbar {
+    background-image: url('/assets/images/brown-paper.jpg')!important;
+    border: 0px;
+}
+
+ul.nav li a { color:#00245d!important;
+}
+
+ul.nav a:hover { color: red !important; }
+
+
+a[rel="email"]:after{
+  content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/45544/email.png");
+  padding-left: 5px;
+}
+
+a[rel="internal-about"] {
+  border-bottom: 1px dotted #1A8D59;
+}
+
 
 p {  
     padding:10px;
@@ -66,10 +91,6 @@ section {
     font-family: 'Patrick Hand', cursive;
     font-size: 3rem;
     margin-bottom: 1rem;
-}
-
-#features h1 {
-    font-family: 'Open Sans';
 }
 
 .bgimg-1,
@@ -225,8 +246,17 @@ section,
 /*MENU: Main Nav - START */
 
 .navbar {
-	font-family: 'Oswald', cursive;
+	font-family: 'Patrick Hand', sans-serif;
 	font-size:25px!important;
+	color: red!important;
+	margin: 0;
+    padding: 0;
+}
+
+.emphasis {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .main-nav {
@@ -238,7 +268,6 @@ section,
 }
 
 .main-nav li {
-    color:#00245D;
     margin: 0 auto;
     list-style: none;
     display: inline-block;
@@ -252,6 +281,7 @@ section,
 .social-menu-wrapper {
     margin: 0;
     padding: 0;
+    float: right;
 }
 
 .social ul {
