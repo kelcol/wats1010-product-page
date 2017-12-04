@@ -2,13 +2,10 @@
 <html>
 
 <head>
-    <style>
-    </style>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>API Superstore</title>
     <meta name="description" content="The API Superstore is a resource that compiles information about APIs available on the web in one convenient location." />
     <meta property="og:type" content="product">
@@ -23,92 +20,88 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="main.css">
-
     <!-- End Bootstrap CSS Framework -->
 
-
-
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cabin:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/650985fde4.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans|Patrick+Hand" rel="stylesheet">
 
-
-    <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel=icon href=favicon.png sizes="16x16" type="image/png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
+    <!-- Javascript - START -->
+    <!-- jQuery -->
+    <script src="assets/bootstrap/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--<script src="/assets/bootstrap/js/parallax.js"></script>-->
+    <!-- Javascript - END -->
 
 </head>
 
 <body>
+
     <!--- Navigation ---->
     <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand" href="#" <img src="assets/logos/api_superstore_sqlogo_by.png" class="img-responsive"></a>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a></li>
                     <li><a href="index.html#features">Features</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
                     <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
 
     <!--- LOGO SECTION --->
     <section class="bgimg-6">
-        <div class="container">
-            <div class="col-xs-8 col-xs-offset-2 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 
             col-md-6 col-md-offset-3 
             col-lg-6 col-lg-offset-3">
-                <img src="assets/logos/api_superstore_sqlogo_by.png" class="img-responsive">
+                    <img src="assets/logos/api_superstore_sqlogo_by.png" class="img-responsive">
+                </div>
             </div>
         </div>
     </section>
 
     <!----  FEATURES SECTION ---->
-    <section id="features" class="bgimg-1">
-        <div class="container">
+    <section id="features">
+        <div class="container-fluid">
+
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>What do you need from the API Superstore?</h2>
+                <div class="col-xs-12" style="text-align:center">
+                    <h1>What do you need from the API Superstore?</h1>
                 </div>
             </div>
-            <div id="notebook-paper">
-                <div class="row" id="content">
-                    <div class="hipsum">
-                        <h2 class="section-heading text-uppercase">Shopping List</h2>
-                        <ul>
-                            <li>Links to the best APIs from all over the web</li>
-                            <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
-                            <li>Convenient catalog</li>
-                            <li>Toothpaste and tomato sauce (Wait - how'd that get in there?)</li>
-                            <li>Elegant shopping experience</li>
-                        </ul>
-                    </div>
+            <div class="row col-xs-12">
+                <div id="notebook-paper">
+                    <h2 class="section-heading text-uppercase">Shopping List</h2>
+                    <ul>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Links to the best APIs from all over the web</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Convenient catalog</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i> Elegant shopping experience</li>
+                    </ul>
                 </div>
             </div>
+        </div>
     </section>
 
 
@@ -120,43 +113,56 @@
 
 
 
-    <!---- VIDEO SECTION ---->
-    <section id="video" class="bgimg-1">
+    <!-- About/Video Section -->
+
+    <section id="about">
         <div class="container">
-            <div class="col-xs-8 col-xs-offset-2 
-            col-md-6 col-md-offset-3 
-            col-lg-6 col-lg-offset-3">
-                <div class="embed-responsive embed-responsive-16by9" align="center">
-                    <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0px" gesture="media" allowfullscreen></iframe>
+            <h1>What are we all about?</h1>
+            <div class="media">
+                <div class="media-left media-top embed-responsive embed-responsive-16by9">
+                    <iframe id="video" class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0px" gesture="media" allowfullscreen></iframe>
+                </div>
+                <div class="media-body">
+                    <h3>We're your friendly neighborhood API store!</h3>
+                    <p class="about">The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e­commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out
+                        yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
+                    <p class="about">So you say you hate Superstores? Have no fear, the API Superstore is a Superstore in name only. We suffer none of the inconveniences of those in person superstores but offer all their conveniences. Want it easy and fast? Want it for
+                        the whole family? Like free samples? Need your expired coupons honored? Look no further.</p>
                 </div>
             </div>
-        </div>
     </section>
 
 
 
-    <div class="bgimg-3">
-        <div class="caption">
-            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Features</span>
-        </div>
-    </div>
 
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bgimg-6" style="background-color:transparent"></div>
 
 
     <!-- TESTIMONIALS SECTION -->
 
-    <section id="testimonials" class="bgimg-1">
-        <div class="container">
+    <section id="testimonials">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Testimonials</h2>
-                    <h3 class="section-subheading text-muted">What our users say </h3>
+                    <h1>Testimonials</h1>
+                    <h3>What our users say </h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="our-user">
-                        <img class="mx-auto rounded-circle" src="assets/images/1.jpg" alt="">
+                        <img class="mx-auto rounded-circle" src="assets/images/1.jpg" alt="Photograph of Fount Rhodeside, Owner of the Roadkill Jerky Co.">
                         <blockquote>
                             <p>Since I started using the API Superstore, everyone thinks I'm shorter and better looking!</p>
                             <footer>Fount Rhodeside, Owner of the Roadkill Jerky Co.</footer>
@@ -165,7 +171,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="our-user">
-                        <img class="mx-auto rounded-circle" src="assets/images/2.jpg" alt="">
+                        <img class="mx-auto rounded-circle" src="assets/images/2.jpg" alt="Photograph of Brigham Raft, Climate Scientist at Ice Floe Station">
                         <blockquote>
                             <p>I've used similar resources but none have been as reliable as the API Superstore.</p>
                             <footer>Brigham Raft, Climate Scientist at Ice Floe Station</footer>
@@ -174,7 +180,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="our-user">
-                        <img class="mx-auto rounded-circle" src="assets/images/3.jpg" alt="">
+                        <img class="mx-auto rounded-circle" src="assets/images/3.jpg" alt="Photograph of Kara Biner, Manager of the Cliffhanger Bed & Climb">
                         <blockquote>
                             <p>I was at my wit's end before coming across the API Superstore. All's well now!</p>
                             <footer>Kara Biner, Manager of the Cliffhanger Bed & Climb</footer>
@@ -188,50 +194,20 @@
 
     <div class="bgimg-5">
         <div class="caption">
-            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">About</span>
+            <span class="border" style="background-color:transparent" />
         </div>
     </div>
 
 
 
-    <!-- About Section -->
-
-    <section id="about" class="bgimg-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">About Us</h2>
-                    <h3 class="section-subheading text-muted">We're your friendly neighborhood API Superstore! </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive about" src="assets/images/Wroclaw_Daily_Market.jpg" alt="Wroclaw daily market" />
-                </div>
-                <div class="col-sm-6">
-                    <p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e­commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out
-                        yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
-                    <p>So you say you hate Superstores? Have no fear, the API Superstore is a Superstore in name only. We suffer none of the inconveniences of those in person superstores but offer all their conveniences. Want it easy and fast? Want it for
-                        the whole family? Like free samples? Need your expired coupons honored? Look no further.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <div class="bgimg-6" style="background-color:transparent"></div>
-
     <!-- Call to Action Section -->
     <section class="jumbotron mx-auto text-center bgimg-1" id="call-to-action">
         <h3>Browse the aisles</h3>
-        <h3 class="section-subheading text-muted">Explore on your own or take a guided tour through the API Superstore</h3>
+        <h3 class="section-subheading text-muted">Explore on your own or take a guided tour through the API Superstore with one of our store clerks </h3>
 
 
         <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
-
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign up for a tour</button>
 
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
@@ -241,13 +217,59 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Is that pizza?</h4>
+                        <h4 class="modal-title"></h4>
                     </div>
                     <div class="modal-body">
-                        <p>No, it's not delivery, it's the API Superstore</p>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-8 col-lg-offset-2">
+                                    <h3>What tour experience would you like? </h3>
+                                    <form id="contact-form" method="post" action="contact.php">
+                                        <div class="messages"></div>
+                                        <div class="controls">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="radio-inline">
+                                                          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Self-guided Tour</label>
+                                                        <label class="radio-inline">
+                                                      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Guided Tour (Additional charges may apply)</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_name">Name *</label>
+                                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name" required="required" data-error="Name is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_email">Email *</label>
+                                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email" required="required" data-error="Valid email is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                                                                <div class="col-md-12">
+                                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p>* These fields are required.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Shut the front door</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
 
@@ -259,7 +281,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="bgimg-1" data-parallax="scroll">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1>Contact Us</h1>
@@ -310,23 +332,21 @@
 
     <div class="bgimg-4" style="background-color:transparent"></div>
 
-    <!-- Footer/Contact Section -->
+    <!-- Footer Section -->
 
-    <footer class="footer-main bgimg-1">
-        <div class="container">
+    <footer class="footer-main">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <ul>
                         <li>Phone: 123456789</li>
                         <li>Email: contactus@apisuperstore.com</li>
                         <li>Location: Seattle, WA</li>
                     </ul>
                 </div>
-                <div class="col-md-8">
-                    <h3>Let's Connect</h3>
-
+                <div class="col-md-6">
                     <div class="social-menu-wrapper social">
-                        <ul>
+                        <ul class="social">
                             <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
@@ -338,20 +358,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-12 footer-copyright">
+                    <p>Copyright © 2017, Kelly Colht </p>
+                </div>
+            </div>
+
     </footer>
-
-    <!-- jQuery -->
-    <script src="assets/bootstrap/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/assets/bootstrap/js/parallax.js"></script>
-
 </body>
-
 
 </html>
